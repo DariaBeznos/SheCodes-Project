@@ -1,3 +1,81 @@
+:root {
+  --main-color: #f9eae1;
+  --secondary-color: #cc8b86;
+  --dark-color: #583738;
+  --button-color: rgba(88, 55, 56, 0.6);
+  --main-font-family: "Adamina", serif;
+  --secondary-font-family: "PT Sans Caption", sans-serif;
+  --fa-primary-color: #583738;
+}
+
 body {
-  background-color: aqua;
+  background-color: var(--main-color);
+}
+
+h1,
+h2 {
+  color: var(--dark-color);
+}
+
+.description {
+  margin: 180px 0 0 171px;
+  max-width: 700px;
+}
+h1 {
+  font-size: 20px;
+  font-family: var(--main-font-family);
+}
+h2 {
+  font-size: 100px;
+  color: var(--dark-color);
+  font-family: var(--secondary-font-family);
+}
+h3 {
+  font-size: 75px;
+  color: var(--dark-color);
+  opacity: 0.8;
+  font-family: var(--main-font-family);
+}
+h4 {
+  max-width: 500px;
+}
+.button {
+  border-radius: 33px;
+  font-size: 18px;
+  width: 100px;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  text-decoration: none;
+  font-family: var(--main-font-family);
+}
+.getcontact {
+  display: block;
+  text-align: center;
+  padding: 300px 0 100px 0;
+}
+.getintouch {
+  font-size: 70px;
+  color: var(--dark-color);
+}
+.intouch {
+  font-size: 30px;
+  color: var(--dark-color);
+}
+.emailbutton {
+  width: 110px;
+  padding: 15px;
+  background-color: var(--button-color);
+  color: var(--main-color);
+  border-radius: 37px;
+  text-decoration: none;
+  display: inline;
+}
+#contactoptions {
+  color: var(--fa-primary-color);
+}
+.contactinfo {
+  display: block;
+  padding: 50px 0 50px 0;
 }
