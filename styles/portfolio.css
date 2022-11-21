@@ -3,6 +3,7 @@
   --secondary-color: #cc8b86;
   --dark-color: #583738;
   --button-color: rgba(88, 55, 56, 0.6);
+  --big-button-color: rgba(88, 55, 56, 0.8);
   --main-font-family: "Adamina", serif;
   --secondary-font-family: "PT Sans Caption", sans-serif;
   --fa-primary-color: #583738;
@@ -67,18 +68,21 @@ h6 {
   text-decoration: none;
   font-family: var(--main-font-family);
 }
+
 .getcontact {
   display: block;
   text-align: center;
-  padding: 300px 0 100px 0;
+  padding: 300px 0 50px 0;
 }
 .getintouch {
   font-size: 70px;
   color: var(--dark-color);
 }
 .intouch {
-  font-size: 30px;
+  font-size: 20px;
   color: var(--dark-color);
+  max-width: 700px;
+  margin: 15px auto;
 }
 .emailbutton {
   width: 110px;
@@ -89,8 +93,25 @@ h6 {
   text-decoration: none;
   display: inline;
 }
-#contactoptions {
+.emailbutton:hover {
+  transition: 200ms ease-in-out;
+  width: 120px;
+  cursor: pointer;
+  color: var(--main-color);
+  background: var(--big-button-color);
+}
+.contactcontainer {
+  max-width: 500px;
+}
+.firstcontact {
   color: var(--fa-primary-color);
+  display: flex;
+  justify-content: flex-end;
+}
+.secondcontact {
+  color: var(--fa-primary-color);
+  display: flex;
+  justify-content: flex-start;
 }
 .contactinfo {
   display: block;
