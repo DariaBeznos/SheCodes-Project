@@ -1,12 +1,17 @@
 :root {
   --main-color: #f9eae1;
   --secondary-color: #cc8b86;
+  --blur-secondary-color: rgba(204, 137, 133, 0.498);
   --dark-color: #583738;
   --button-color: rgba(88, 55, 56, 0.6);
   --big-button-color: rgba(88, 55, 56, 0.8);
   --main-font-family: "Adamina", serif;
   --secondary-font-family: "PT Sans Caption", sans-serif;
   --fa-primary-color: #583738;
+  --main-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  --button-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 body {
@@ -19,8 +24,7 @@ h2 {
 }
 
 .description {
-  margin: 180px 0 0 171px;
-  max-width: 700px;
+  box-sizing: border-box;
 }
 h1 {
   font-size: 20px;
@@ -48,7 +52,8 @@ h4 {
 }
 h5 {
   color: var(--dark-color);
-  padding: 150px 0 180px 0;
+
+  position: fixed;
   font-size: 65px;
 }
 h6 {
@@ -67,6 +72,7 @@ h6 {
   color: var(--main-color);
   text-decoration: none;
   font-family: var(--main-font-family);
+  box-shadow: var(--button-box-shadow);
 }
 
 .getcontact {
@@ -92,6 +98,7 @@ h6 {
   border-radius: 37px;
   text-decoration: none;
   display: inline;
+  box-shadow: var(--button-box-shadow);
 }
 .emailbutton:hover {
   transition: 200ms ease-in-out;
@@ -124,6 +131,7 @@ h6 {
   border-radius: 20px;
   padding: 10px;
   border: none;
+  box-shadow: var(--button-box-shadow);
 }
 .row {
   margin-bottom: 90px;
@@ -132,8 +140,13 @@ h6 {
   max-width: 900px;
 }
 .personas {
-  background: var(--secondary-color);
+  background: var(--blur-secondary-color);
   color: var(--main-color);
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: var(--main-box-shadow);
 }
 @media (max-width: 600px) {
   h1 {
