@@ -17,7 +17,13 @@
 body {
   background-color: var(--main-color);
 }
-
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-color);
+}
 h1,
 h2 {
   color: var(--dark-color);
@@ -28,7 +34,7 @@ h2 {
 .description {
   box-sizing: border-box;
   max-width: 900px;
-  margin: 90px;
+  margin: 190px 0 10px 80px;
 }
 h1 {
   font-size: 20px;
@@ -162,7 +168,7 @@ h6 {
   }
   .description {
     text-align: center;
-    margin: 50px 10px;
+    margin: 150px 10px 140px;
   }
   .button {
     justify-content: center;
@@ -173,6 +179,9 @@ h6 {
   }
   .getintouch {
     font-size: 40px;
+  }
+  .getcontact {
+    margin-bottom: 80px;
   }
   .intouch {
     font-size: 12px;
