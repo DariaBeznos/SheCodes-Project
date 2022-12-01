@@ -70,6 +70,10 @@ h6 {
   color: var(--dark-color);
   font-size: 40px;
   font-family: var(--secondary-font-family);
+  text-align: center;
+}
+#myinterests {
+  text-align: center;
 }
 .button {
   border-radius: 33px;
@@ -131,7 +135,11 @@ h6 {
   border-radius: 20px;
   padding: 10px;
   border: none;
+  width: 100px;
   box-shadow: var(--button-box-shadow);
+}
+#mebutton {
+  text-align: center;
 }
 .row {
   margin-bottom: 50px;
@@ -147,6 +155,10 @@ h6 {
   border-radius: 20px;
   box-sizing: border-box;
   box-shadow: var(--main-box-shadow);
+}
+.pictureme {
+  width: 190px;
+  margin-top: 200px;
 }
 @media (max-width: 600px) {
   h1 {
@@ -200,10 +212,8 @@ h6 {
     width: 40px;
   }
 }
-.aboutrow {
-  margin: 100px 0;
-}
+
 .myskills {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
