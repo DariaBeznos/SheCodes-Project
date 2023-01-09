@@ -1,8 +1,15 @@
-function changetext() {
-  let myinterest = document.querySelector("#myinterests");
-  let textreplace = myinterest.text();
-  let newtext = textreplace.replace("Hi", "Bye");
-  myinterest.text(newtext);
-}
+const button = document.querySelector("#mebutton");
+const text = document.querySelector("#mydescrip");
 
-document.querySelector("#mebutton").addEventListener("click", changetext);
+const texts = [
+  "Dog sitter",
+  "Proud Ukrainian",
+  "Enthusiatic reader",
+  "rookie snowboarder",
+];
+
+let index = 0;
+button.addEventListener("click", () => {
+  text.innerText = texts[index];
+  index = (index + 1) % texts.length;
+});
