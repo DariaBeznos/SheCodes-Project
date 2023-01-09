@@ -75,40 +75,47 @@
       <div class="mypic">
         <img src="styles/pic-of-me.jpg" class="img-fluid rounded pictureme" />
       </div>
-      <h6>Hi! My name is</h6>
+      <h1 style="text-align: center">Hi! My name is</h1>
       <h6>Daria Beznos</h6>
-      <p id="myinterests">I am a junior Front-end developer and F1 fan</p>
+      <p id="myinterests">
+        I am a junior Front-end developer and
+        <span id="mydescrip">F1 fan </span>
+      </p>
       <div class="aboutpagebutton">
         <button class="projectsbutton" id="mebutton">What else?</button>
       </div>
       <h6 class="text-center pb-4">My skills</h6>
-
-      <div class="row myskills">
-        <div class="col-4"><i class="fa-brands fa-html5 fa-3x"></i></div>
-        <div class="col-4"><i class="fa-brands fa-css3-alt fa-3x"></i></div>
-        <div class="col-4">
-          <i class="fa-brands fa-square-js fa-3x"></i>
+      <div class="listofskills">
+        <div class="row myskills">
+          <div class="col-sm-4"><i class="fa-brands fa-html5 fa-3x"></i></div>
+          <div class="col-sm-4">
+            <i class="fa-brands fa-css3-alt fa-3x"></i>
+          </div>
+          <div class="col-sm-4">
+            <i class="fa-brands fa-square-js fa-3x"></i>
+          </div>
+        </div>
+        <div class="row myskills">
+          <div class="col-sm-4">
+            <i class="fa-brands fa-bootstrap fa-3x"></i>
+          </div>
+          <div class="col-sm-4"><i class="fa-brands fa-react fa-3x"></i></div>
+          <div class="col-sm-4">
+            <i class="fa-brands fa-github fa-3x"></i>
+          </div>
+        </div>
+        <div class="row myskills">
+          <div class="col-sm-4">Hey</div>
+          <div class="col-sm-4">
+            <img src="styles/vs-code.png" />
+          </div>
+          <div class="col-sm-4">
+            <i class="fa-brands fa-git-alt fa-4x"></i>
+          </div>
         </div>
       </div>
-      <div class="row myskills">
-        <div class="col-4">
-          <i class="fa-brands fa-bootstrap fa-3x"></i>
-        </div>
-        <div class="col-4"><i class="fa-brands fa-react fa-3x"></i></div>
-        <div class="col-4">
-          <i class="fa-brands fa-github fa-3x"></i>
-        </div>
-      </div>
-      <div class="row myskills">
-        <div class="col-4">Hey</div>
-        <div class="col-4">
-          <img src="styles/vs-code.png" />
-        </div>
-        <div class="col-4"><i class="fa-brands fa-git-alt fa-3x"></i></div>
-      </div>
-
       <div class="row">
-        <div class="col-sm-6"><h5>Daria as a...</h5></div>
+        <div class="col-sm-6"><h5>Daria as a....</h5></div>
         <div class="col-sm-6 personas">
           <p>Developer</p>
           <p>daria is a very good friend, bla bla bla</p>
@@ -136,6 +143,6 @@
         </div>
       </div>
     </div>
+    <script src="me.js"></script>
   </body>
-  <script src="me.js"></script>
 </html>
