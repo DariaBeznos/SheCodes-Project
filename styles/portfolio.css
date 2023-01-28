@@ -162,8 +162,8 @@ h6 {
   height: 200px;
   border-radius: 20px;
   box-sizing: border-box;
-
   box-shadow: var(--main-box-shadow);
+  margin: 20px;
 }
 
 @media (max-width: 600px) {
@@ -248,4 +248,17 @@ h6 {
   font-style: var(--main-font-family);
   font-size: 50px;
   color: var(--fa-primary-color);
+}
+
+.mydescriptions {
+  text-align: center;
+  color: var(--fa-primary-color);
+  font: var(--main-font-family);
+  margin-top: 190px;
+  font-size: 40px;
+}
+.descriptionvariations {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
 }
