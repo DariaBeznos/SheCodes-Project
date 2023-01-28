@@ -2,10 +2,13 @@ const button = document.querySelector("#mebutton");
 const text = document.querySelector("#mydescrip");
 
 const texts = [
-  "Dog sitter",
-  "Proud Ukrainian",
-  "Enthusiatic reader",
+  "dog sitter",
+  "proud Ukrainian",
+  "enthusiatic reader",
   "rookie snowboarder",
+  "coffee connoisseur",
+  "Web3 enthusiast",
+  "Bitcoiner",
 ];
 
 let index = 0;
