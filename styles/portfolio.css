@@ -217,6 +217,12 @@ h6 {
   .Blogo {
     width: 40px;
   }
+  .projectsimage {
+    margin-top: 20px;
+    width: 400px;
+    display: block;
+    text-align: center;
+  }
 }
 
 .myskills {
