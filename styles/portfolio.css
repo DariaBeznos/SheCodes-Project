@@ -301,3 +301,31 @@ h6 {
   color: var(--fa-primary-color);
   margin-right: 5px;
 }
+
+.favpicks {
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  color: var(--dark-color);
+  margin-top: 50px;
+}
+.podcast {
+  margin-bottom: 30px;
+}
+.fav-podcast {
+  color: var(--dark-color);
+  display: inline-block;
+  font-size: 22px;
+  font: "Adamina", serif;
+}
+.podcast-desc {
+  font-size: 15px;
+  color: var(--fa-primary-color);
+}
+.bookname {
+  color: var(--fa-primary-color);
+  font-size: 18px;
+  font-family: var(--main-font-family);
+}
+.currentbook {
+  max-width: 170px;
+}
