@@ -334,3 +334,11 @@ h6 {
   color: var(--fa-primary-color);
   font-family: var(--secondary-font-family);
 }
+footer {
+  background-color: var(--secondary-color);
+  padding: 20px 0 10px 0;
+}
+footer div {
+  color: #f9eae1;
+  text-align: center;
+}
