@@ -7,7 +7,7 @@ const texts = [
   "enthusiatic reader",
   "rookie snowboarder",
   "coffee connoisseur",
-  "Web3 enthusiast",
+  "F1 fan",
   "Bitcoiner",
 ];
 
